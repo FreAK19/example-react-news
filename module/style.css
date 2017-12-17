@@ -1,0 +1,63 @@
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+#posts {
+    width: 40vw;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background: #c0c0c0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.article {
+    position: relative;
+    background: gold;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+    text-align: left;
+    transition: all 0.6s;
+}
+
+.article h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.article .close {
+    display: none;
+}
+
+.article:hover .close {
+    display: inline;
+    cursor: pointer;
+}
+
+.none {
+    display: none;
+}
+
+.textarea {
+    resize: none;
+    height: 150px;
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    padding: 1rem;
+}
